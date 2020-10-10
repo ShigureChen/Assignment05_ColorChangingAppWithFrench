@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Changement de Couleur Application avec le Français</string>
+    <string name="app_message">Cliquez sur une couleur ci-dessous pour lancer le canevas</string>
+    <string name="title">Activité de la Palette</string>
+    <string name="title2">Activité de Toile</string>
+
+    <string name="red">Rouge</string>
+    <string name="yellow">Jaune</string>
+    <string name="cyan">Bleu Clair</string>
+    <string name="lightGray">Gris Clair</string>
+    <string name="magenta">Magenta</string>
+    <string name="silver">Argenté</string>
+    <string name="blue">Bleu</string>
+    <string name="green">Vert</string>
+    <string name="darkGray">Gris Foncé</string>
+</resources>

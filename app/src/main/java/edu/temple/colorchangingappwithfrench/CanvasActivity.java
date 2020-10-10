@@ -20,7 +20,7 @@ public class CanvasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_canvas);
 
 
-        setTitle("Canvas Activity");
+        setTitle(getString(R.string.title2));
 
         Intent intent = getIntent();
 

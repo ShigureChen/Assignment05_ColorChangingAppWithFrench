@@ -22,15 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
         final String[] colourStr = new String[9];
 
-        colourStr[0] = "Red";
-        colourStr[1] = "Yellow";
-        colourStr[2] = "Cyan";
-        colourStr[3] = "Light Gray";
-        colourStr[4] = "Magenta";
-        colourStr[5] = "Silver";
-        colourStr[6] = "Blue";
-        colourStr[7] = "Green";
-        colourStr[8] = "Dark Gray";
+        colourStr[0] = getString(R.string.red);
+        colourStr[1] = getString(R.string.yellow);
+        colourStr[2] = getString(R.string.cyan);
+        colourStr[3] = getString(R.string.lightGray);
+        colourStr[4] = getString(R.string.magenta);
+        colourStr[5] = getString(R.string.silver);
+        colourStr[6] = getString(R.string.blue);
+        colourStr[7] = getString(R.string.green);
+        colourStr[8] = getString(R.string.darkGray);
 
         final int[] colourInt = new int[9];
 
@@ -44,13 +44,12 @@ public class MainActivity extends AppCompatActivity {
         colourInt[7] = Color.GREEN;
         colourInt[8] = Color.DKGRAY;
 
-        setTitle("Palette Activity");
+        setTitle(getString(R.string.title));
 
         TextView textView;
         textView = findViewById(R.id.textView);
-        textView.setTextSize(22);
-        textView.setText("Choose a color");
-
+        textView.setTextSize(30);
+        textView.setText(getString(R.string.app_message));
         gridView = findViewById(R.id.gridView);
         final GridAdapter adapter = new GridAdapter(this, colourStr, colourInt);
         gridView.setAdapter(adapter);
